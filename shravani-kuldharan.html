@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <h1>Login Page</h1>
+        <form>
+            <label for="name">Enter Name:</label>
+            <input type="text" id="name" name="name">
+            <br><br>
+
+            <label for="email">Enter Email:</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+
+            <label for="password">Enter Password:</label>
+            <input type="password" name="password">
+            <br><br>
+
+            <label>Gender :</label>
+            <br>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <br><br>
+
+            <label>Choose Branch:</label>
+            <br>
+            <input type="checkbox">
+            <label>BCS</label><br>
+            <input type="checkbox">
+            <label>BBA</label><br>
+            <input type="checkbox">
+            <label>BCA</label><br>
+            <input type="checkbox">
+            <label>Mathematics</label>
+            <br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+        
+        <hr>
+        <hr>
+        
+    <h2>Marksheet Table</h2>
+    <table border="2">
+        <tr>
+            <th rowspan="3">Rollno</th>
+            <th rowspan="3">Name</th>
+            <th colspan="6">Subject</th>
+            <th rowspan="3">Total</th>
+        </tr>
+        <tr>
+            <th rowspan="2">English</th>
+            <th colspan="2">Maths</th>
+            <th colspan="3">Science</th>
+        </tr>
+        <tr>
+            <th>Math1</th>
+            <th>Math2</th>
+            <th>Physics</th>
+            <th>Chemistry</th>
+            <th>Biology</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Shravani</td>
+            <td>89</td>
+            <td>70</td>
+            <td>90</td>
+            <td>90</td>
+            <td>79</td>
+            <td>89</td>
+            <td>507</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Bhakti</td>
+            <td>94</td>
+            <td>80</td>
+            <td>85</td>
+            <td>70</td>
+            <td>96</td>
+            <td>78</td>
+            <td>503</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Durvesh</td>
+            <td>80</td>
+            <td>90</td>
+            <td>79</td>
+            <td>88</td>
+            <td>95</td>
+            <td>99</td>
+            <td>531</td>
+        </tr>
+    </table>
+</body>
+</html>
